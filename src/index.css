@@ -6,9 +6,25 @@
   box-sizing: border-box;
 }
 
-body {
+.main {
   font-family: 'Lato', serif;
   background: linear-gradient(#c9dae2, #a9b2c1);
   color: #0e141e;
-  min-height: 100vh;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
+.animate-div {
+  text-align: center;
+}
+
+h1 {
+  font-size: 8rem;
+}
+
+
+
