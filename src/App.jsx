@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { use, useState } from "react";
 import { motion } from "framer-motion";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <div id="demo">
       <motion.div
         id="box"
-        animate={{ x: x, y: y, rotate: rotate }}
+        animate={{ x, y, rotate }}
         transition={{ duration: 0.3, bounce: 0.4, type: "spring" }}
       />
 
